@@ -16,7 +16,6 @@
         @section('content')
 
             <!-- Passing values from template-->
-            <p>{{$title}}</p>      <!--Reads through comments. Gives an error with this-->
 
             <!-- <?php
             // echo $title;
@@ -24,11 +23,11 @@
             </p> -->
 
             <!-- Passing array from template -->
-            <!-- <ul>
+            <ul>
             @foreach($contacts as $name)
                 <li> {{$name}}</li>
             @endforeach
-            </ul> -->
+            </ul>
 
 
             <p> Contact page </p>

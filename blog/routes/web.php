@@ -17,9 +17,9 @@ Route::get('/', function () {
 
 // Passing values into template [can take values from a database and pass in]
 Route::get('/contact', function () {
-    return view('home.contact',["title"=>"Content Page"]);            //contacts.blade.php is in the subfolder home
-    // $names = ["namal", "saman", "john"];
-    // return view('home.contact',["contacts"=>$names]); 
+    // return view('home.contact',["title"=>"Content Page"]);            //contacts.blade.php is in the subfolder home
+    $names = ["namal", "saman", "john"];
+    return view('home.contact',["contacts"=>$names]); 
 });
 
 // Passing arrays to template
