@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Contact</title>
+        <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+        <script type="text/javascript" src="{{ asset('js/scripts.js') }}"></script>
     </head>
     <body>
         <!-- <h1>Informatics Institute of Technology</h1>
